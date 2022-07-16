@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<title>Thaneesha</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="CodexCoder">
+		
+		<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900&amp;display=swap" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+		
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/x-icon.png">
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/lightcase.css">
+		<link rel="stylesheet" type="text/css" href="assets/flaticon/flaticon.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+	<!--	<div class="search-area">
+			<div class="search-input">
+				<div class="search-close">
+					<span></span>
+					<span></span>
+				</div>
+				<form>
+					<input type="text" name="text" placeholder="*Search Here">
+				</form>
+			</div>
+		</div>-->
+
+		<!-- mobile-nav section start here -->
+		<div class="mobile-menu">
+			<nav class="mobile-header primary-menu d-lg-none">
+				<div class="header-logo">
+					<a href="index.html" class="logo"><img src="assets/images/logo/01.png" alt="logo"></a>
+				</div>
+				<div class="header-bar" id="open-button">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+			<nav class="menu">
+				<div class="mobile-menu-area d-lg-none">
+					<div class="mobile-menu-area-inner" id="scrollbar">
+						<ul class="m-menu">
+							<li><a class="active" href="index.html">Home</a>
+                            <li><a href="about.html">about</a></li>
+								<!--<ul class="m-submenu">
+									<li><a href="index.html">Home page one</a></li>
+									<li><a href="index-2.html">Home page two</a></li>
+									<li><a href="index-3.html">Home page three</a></li>
+									<li><a class="active" href="index-4.html">Home page four</a></li>
+									<li><a href="index-5.html">Home page five</a></li>
+									<li><a href="onepage.html">OnePage Style</a></li>
+									<li><a href="home-layout.html">Home Box Layout</a></li>
+									<li><a href="http://labartisan.net/demo/gowala-rtl/rtl.html">RTL Layout</a></li>
+								</ul>-->
+						
+							<!--<li><a href="#0">Pages</a>
+								<ul class="m-submenu">
+								
+									<li><a href="team.html">Team Members</a></li>
+									<li>
+										<a href="#0">Gallery</a>
+										<ul class="m-submenu">
+											<li><a href="gallery.html">Gallery</a></li>
+											<li><a href="gallery-2.html">Gallery Full Width</a></li>
+										</ul>
+									</li>
+									<li><a href="404.html">404</a></li>
+								</ul>
+							</li>-->
+							<li><a href="parth-pure-cow-ghee.html">Parth Pure Ghee</a>
+								<!--<ul class="m-submenu">
+									<li><a href="shope-page.html">Shop Page</a></li>
+									<li><a href="shope-single.html">Shope Single Page</a></li>
+									<li><a href="shope-cart.html">Cart Page</a></li>
+								</ul>-->
+							</li>
+							<li><a href="gramdhenu-pure-ghee.html">Gramdhenu Pure Ghee</a></li>
+							<!--<li><a href="#0">Blog</a>
+								<ul class="m-submenu">
+									<li><a href="blog.html">Blog Page</a></li>
+									<li><a href="blog-single.html">Blog Single Page</a></li>
+								</ul>
+							</li>-->
+							<li><a href="contact-us.php">Contact us</a></li>
+						</ul>
+						<ul class="social-link-list d-flex flex-wrap">
+							<li><a href="#" class="facebook"><i class=" fab fa-facebook-f"></i></a></li>
+							<li><a href="#" class="twitter-sm"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- mobile-nav section ending here -->
+
+
+		<!-- header section start here -->
+		<header class="header-section style-2 d-none d-lg-block">
+			<div class="header-top" style="background: #2877c6;">
+				<div class="container">
+					<div class="htop-area row">
+						<div class="htop-left">
+							<ul class="htop-information">
+								<li><i class="far fa-envelope"></i> info@thaneeshagroup.com
+</li>
+								<li><i class="fas fa-phone-volume"></i> 9320140140</li>
+								<!--<li><i class="far fa-clock"></i> Mon - Fri 09:00 - 18:00</li>-->
+							</ul>
+						</div>
+						<div class="htop-right">
+							<ul>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-behance"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row">
+						<nav class="primary-menu">
+							<div class="menu-area">
+								<div class="row justify-content-between align-items-center">
+									<a href="index.html" class="logo">
+										<img src="assets/images/logo/01.png" alt="logo">
+									</a>
+									<div class="main-menu-area d-flex align-items-center">
+										<ul class="main-menu d-flex align-items-center">
+											<li><a class="active" href="index.html">Home</a> 
+												<!--<ul class="submenu">
+													<li><a href="index.html">Home page one</a></li>
+													<li><a href="index-2.html">Home page two</a></li>
+													<li><a href="index-3.html">Home page three</a></li>
+													<li><a class="active" href="index-4.html">Home page four</a></li>
+													<li><a href="index-5.html">Home page five</a></li>
+													<li><a href="onepage.html">OnePage Style</a></li>
+													<li><a href="home-layout.html">Home Box Layout</a></li>
+													<li><a href="http://labartisan.net/demo/gowala-rtl/rtl.html">RTL Layout</a></li>
+												</ul>-->
+											</li>
+											<!--<li><a href="#">Pages</a>
+												<ul class="submenu">
+													<li><a href="about.html">about</a></li>
+													<li><a href="team.html">Team Members</a></li>
+													<li><a href="#">Gallery</a>
+														<ul class="submenu">
+															<li><a href="gallery.html">Gallery</a></li>
+															<li><a href="gallery-2.html">Gallery Full Width</a></li>
+														</ul>
+													</li>
+													<li><a href="404.html">404</a></li>
+												</ul>
+											</li>-->
+                                            <li><a href="about.html">About Us</a>
+											<li><a href="parth-pure-cow-ghee.html">Parth Pure Ghee</a>
+                                             <li><a href="gramdhenu-pure-ghee.html">Gramdhenu Pure Ghee</a>
+												
+											<li><a href="contact-us.php">Contact us</a></li>
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header section ending here -->
+
+		<!-- page header section ending here -->
+        <section class="page-header padding-tb page-header-bg-1">
+            <div class="container">
+                <div class="page-header-item d-flex align-items-center justify-content-center">
+                    <div class="post-content">
+                        <h3>Contact Us</h3>
+                        <div class="breadcamp">
+                            <!--<ul class="d-flex flex-wrap justify-content-center align-items-center">
+                                <li><a href="index.html">Home</a> </li>
+                                <li><a class="active">contact-Us</a></li>
+                            </ul>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- page header section ending here -->
+
+        <!-- contact us section start here -->
+	    <div class="contact padding-tb">
+            <div class="container">
+                <div class="section-wrapper row">
+                    <div class="col-lg-8 col-12">
+                        <div class="contact-part">
+                            <div class="contact-title">
+                                <h4>Send Message us</h4>
+                                
+                                	<?php
+if(isset($_POST['email'])) {
+$email_to = "info@thaneeshagroup.com";
+$email_subject = "Query from Website";
+//Errors to show if there is a problem in form fields.
+function died($error) {
+    echo "We are sorry that we can procceed your request due to error(s)";
+    echo "Below is the error(s) list <br /><br />";
+    echo $error."<br /><br />";
+    echo "Please go back and fix these errors.<br /><br />";
+    die();
+}
+// validation expected data exists
+if(!isset($_POST['first_name']) ||
+       !isset($_POST['last_name']) ||
+       !isset($_POST['email']) ||
+       !isset($_POST['telephone']) ||
+       !isset($_POST['comments'])) {
+    died('We are sorry to proceed your request due to error within form entries');   
+}
+$first_name = $_POST['first_name']; // required
+$last_name = $_POST['last_name']; // required
+$email_from = $_POST['email']; // required
+   $telephone = $_POST['telephone']; // not required
+$comments = $_POST['comments']; // required
+$error_message = "";
+$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+ if(!preg_match($email_exp,$email_from)) {
+$error_message .= 'You entered an invalid email<br />';
+ }
+$string_exp = "/^[A-Za-z .'-]+$/";
+ if(!preg_match($string_exp,$first_name)) {
+$error_message .= 'Invalid first name<br />';
+ }
+ if(!preg_match($string_exp,$last_name)) {
+$error_message .= 'Invalid Last name<br />';
+ }
+ if(strlen($comments) < 2) {
+$error_message .= 'Invalid comments<br />';
+ }
+ if(strlen($error_message) > 0) {
+   died($error_message);
+ }
+$email_message = "Form details below.\n\n";
+function clean_string($string) {
+  $bad = array("content-type","bcc:","to:","cc:","href");
+  return str_replace($bad,"",$string);
+}
+$email_message .= "First Name:".clean_string($first_name)."\n";
+$email_message .= "Subject:".clean_string($last_name)."\n";
+$email_message .= "Email:".clean_string($email_from)."\n";
+$email_message .= "Telephone:".clean_string($telephone)."\n";
+$email_message .= "Comments:".clean_string($comments)."\n";
+// create email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);
+?>
+
+<!-- include your own success html here -->
+<br><br>
+<h4 style="color:green;">Thank you for contacting us. We will be in touch with you very soon.</h4>
+<?php
+}
+?>
+                                
+                            </div>
+                            <div class="contact-form d-flex flex-wrap justify-content-between">
+						<form class="contact-form d-flex flex-wrap justify-content-between" name="submit" action="" method="post">
+                                <input type="text" name="first_name" placeholder="Your Name">
+                                <input type="email" name="email" placeholder="Your Email">
+                                <input type="tel" name="telephone" placeholder="Phone">
+                                <input type="text" name="last_name" placeholder="Subject">
+                                <textarea rows="7" placeholder="Enter Your Message" name="comments"></textarea>
+                                <div class="gdprs">
+                                    <label><input type="checkbox" checked="checked" name="sameadr">i’m not a robot </label>
+                                    <img src="assets/images/contact/icon/01.png" alt="contact">
+                                </div>
+                                <input class="btn" type="submit" name="submit" value="Submit Now">
+								</form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+						<div class="contact-info">
+							<h3>Contact Us</h3>
+							<!--<p>Continually productize compelling quality dome
+							packed with all Elated Themes ently utilize 
+							website and creating pages corporate </p>-->
+							<ul class="contact-location">
+								<li>
+									<div class="icon-part">
+										<i class="fas fa-phone-volume"></i>
+									</div>
+									<div class="content-part">
+										<p>9320140140</p>
+										<p>7977669725</p>
+									</div>
+								</li>
+                                
+                                
+                                <li>
+									<div class="icon-part">
+										<i class="fa fa-envelope"></i>
+									</div>
+									<div class="content-part">
+										<p>info@thaneeshagroup.com</p>
+										
+									</div>
+								</li>
+								<li>
+									<!--<div class="icon-part">
+										<i class="fas fa-clock"></i>
+									</div>-->
+									<!--<div class="content-part">
+										<p>Mon - Fri 09:00 - 18:00</p>
+										<p>(except public holidays)</p>
+									</div>-->
+								</li>
+								<li>
+<div class="icon-part" style="    margin-top: -120px;">
+<i class="fas fa-map-marker-alt"></i>
+									</div>
+<div class="content-part">
+<p><b>Thaneesha Marketing Zone Pvt Ltd </b>
+Shop Number 04 Plot No 10/18 Crescent Building, 
+Pav Vala Street Cama Baug,
+ Khetwadi, Girgaon 
+Mumbai 400004
+Maharashtra India <br><p><b>FSSAI Lic No:</b> 11518002000197</p>
+
+									</div>
+								</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- contact us section ending here -->
+		
+		<!-- gmap section start here -->
+        <!--<div class="gmaps padding-tb">
+			<div class="container">
+				<div id="map"></div>
+			</div>
+        </div>-->
+        <!-- gmap section ending here -->
+
+	<!-- footer section start here -->
+		<footer>
+			<div class="footer-top padding-tb">
+				<div class="container">
+					<div class="section-wrapper row">
+						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+							<div class="post-item">
+								<a href="#" class="footer-logo">
+									<img src="assets/images/footer/footer-logo.png" alt="footer-logo">
+								</a>
+								<p>Thaneesha Group is the fastest growing Cow pure ghee manufacturer in India
+ </p>
+								<ul class="footer-location">
+									<li>
+										<div class="icon-part">
+											<i class="fas fa-phone-volume"></i>
+										</div>
+										<div class="content-part">
+											<p>9320140140 </p>
+                                            <p>7977669725</p>
+											
+										</div>
+									</li>
+									<li>
+										<!--<div class="icon-part">
+											<i class="fas fa-clock"></i>
+										</div>-->
+										<!--<div class="content-part">
+											<p>Mon - Fri 09:00 - 18:00</p>
+											<p>(except public holidays)</p>
+										</div>-->
+									</li>
+									<li>
+										<div class="icon-part">
+											<i class="fas fa-map-marker-alt"></i>
+										</div>
+										<div class="content-part">
+											<p><b>Thaneesha Marketing Zone Pvt Ltd</b>
+<br> Shop Number 04 Plot No 10/18
+Crescent Building, Pav Vala Street
+Cama Baug, Khetwadi, Girgaon
+Mumbai 400004 Maharashtra India
+</p>
+                                            <p><b>FSSAI Lic No:</b> 11518002000197</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+							<div class="post-item">
+								<div class="post-title">
+									<h3>Top Selling Product</h3>
+								</div>
+								<ul class="footer-post">
+									<li>
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/footer/01.jpg" alt="footer"></a>
+										</div>
+										<div class="post-content">
+											<h5><a href="#">Gramdhenu</a></h5>
+											<div class="footer-rating">
+												<ul class="rating">
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star-half"></i></li>
+												</ul>
+												<p>15kg</p>
+											</div>
+											
+										</div>
+									</li>
+									<li>
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/footer/02.jpg" alt="footer"></a>
+										</div>
+										<div class="post-content">
+											<h5><a href="#">Gramdhenu Pure Ghee</a></h5>
+											<div class="footer-rating">
+												<ul class="rating">
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star-half"></i></li>
+												</ul>
+												<p>15kg </p>
+											</div>
+											
+											
+										</div>
+									</li>
+									<li>
+										<div class="post-thumb">
+											<a href="#"><img src="assets/images/footer/03.jpg" alt="footer"></a>
+										</div>
+										<div class="post-content">
+											<h5><a href="#">Parth Pure Ghee</a></h5>
+											<div class="footer-rating">
+												<ul class="rating">
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star"></i></li>
+													<li><i class="fas fa-star-half"></i></li>
+												</ul>
+												<p>15kg </p>
+											</div>
+											
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+							<div class="post-item">
+								<div class="post-title">
+									<h3>Gallery</h3>
+								</div>
+								<ul class="footer-gellary">
+									<li><a href="assets/images/footer/gellary/01.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/01.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/02.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/02.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/03.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/03.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/04.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/04.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/05.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/05.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/06.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/06.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/07.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/07.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/08.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/08.jpg" alt="gellary"></a></li>
+									<li><a href="assets/images/footer/gellary/09.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/09.jpg" alt="gellary"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+				<div class="container">
+					<div class="section-wrapper">
+						<p class="text-center">&copy; 2021 <a href="index.html">Thaneesha Group</a>.All Rights Reserved<a href="#"></a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer section start here -->
+
+		<!-- scrollToTop start here -->
+		<a href="#" class="scrollToTop"><i class="flaticon-chevron-up"></i></a>
+		<!-- scrollToTop ending here -->
+
+
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/fontawesome.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src='assets/js/jquery.easing.js'></script>
+		<script src='assets/js/slick.min.js'></script>
+		<script src="assets/js/lightcase.js"></script>
+        <script src="assets/js/map-custom.js"></script>
+		<script src="assets/js/circular-countdown.js"></script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/theia-sticky-sidebar.js"></script>
+		<script src="assets/js/swiper.min.js"></script>
+		<script src="assets/js/functions.js"></script>
+        
+	</body>
+
+
+</html>
