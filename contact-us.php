@@ -482,7 +482,7 @@ Mumbai 400004 Maharashtra India
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-							<div class="post-item">
+							<!-- <div class="post-item">
 								<div class="post-title">
 									<h3>Gallery</h3>
 								</div>
@@ -497,7 +497,7 @@ Mumbai 400004 Maharashtra India
 									<li><a href="assets/images/footer/gellary/08.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/08.jpg" alt="gellary"></a></li>
 									<li><a href="assets/images/footer/gellary/09.jpg" data-rel="lightcase"><img src="assets/images/footer/gellary/09.jpg" alt="gellary"></a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
