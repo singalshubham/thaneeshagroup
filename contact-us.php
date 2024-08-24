@@ -340,12 +340,12 @@ $headers = 'From: '.$email_from."\r\n".
 <i class="fas fa-map-marker-alt"></i>
 									</div>
 <div class="content-part">
-<p><b>Thaneesha Marketing Zone Pvt Ltd </b>
-Shop Number 04 Plot No 10/18 Crescent Building, 
-Pav Vala Street Cama Baug,
- Khetwadi, Girgaon 
-Mumbai 400004
-Maharashtra India <br><p><b>FSSAI Lic No:</b> 11518002000197</p>
+<p><b>THANEESHA PRODUCTS PVT LTD</b>
+<br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
+Corporation (Thane Zone-2), Maharashtra, 400708
+</p>
+                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
+
 
 									</div>
 								</li>
@@ -402,13 +402,11 @@ Maharashtra India <br><p><b>FSSAI Lic No:</b> 11518002000197</p>
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
 										<div class="content-part">
-											<p><b>Thaneesha Marketing Zone Pvt Ltd</b>
-<br> Shop Number 04 Plot No 10/18
-Crescent Building, Pav Vala Street
-Cama Baug, Khetwadi, Girgaon
-Mumbai 400004 Maharashtra India
+										<p><b>THANEESHA PRODUCTS PVT LTD</b>
+<br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
+Corporation (Thane Zone-2), Maharashtra, 400708
 </p>
-                                            <p><b>FSSAI Lic No:</b> 11518002000197</p>
+                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
 										</div>
 									</li>
 								</ul>
