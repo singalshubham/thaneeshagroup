@@ -344,7 +344,7 @@ $headers = 'From: '.$email_from."\r\n".
 <br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
 Corporation (Thane Zone-2), Maharashtra, 400708
 </p>
-                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
+                                            <p><b>FSSAI Lic No:</b> 11523015000163</p>
 
 
 									</div>
@@ -406,7 +406,7 @@ Corporation (Thane Zone-2), Maharashtra, 400708
 <br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
 Corporation (Thane Zone-2), Maharashtra, 400708
 </p>
-                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
+                                            <p><b>FSSAI Lic No:</b> 11523015000163</p>
 										</div>
 									</li>
 								</ul>
