@@ -26,19 +26,6 @@
 	</head>
 
 	<body>
-	<!--	<div class="search-area">
-			<div class="search-input">
-				<div class="search-close">
-					<span></span>
-					<span></span>
-				</div>
-				<form>
-					<input type="text" name="text" placeholder="*Search Here">
-				</form>
-			</div>
-		</div>-->
-
-		<!-- mobile-nav section start here -->
 		<div class="mobile-menu">
 			<nav class="mobile-header primary-menu d-lg-none">
 				<div class="header-logo">
@@ -188,379 +175,173 @@
 		</header>
 		<!-- header section ending here -->
 
-
-		<!-- banner section start here -->
-		<section class="page-header padding-tb page-header-bg-3">
+		<!-- page header section ending here -->
+        <section class="page-header padding-tb page-header-bg-1">
             <div class="container">
                 <div class="page-header-item d-flex align-items-center justify-content-center">
                     <div class="post-content">
-                        <h3 style="color: #fff;">Gramdhenu Pure Ghee</h3>
+                        <h3>Contact Us</h3>
                         <div class="breadcamp">
                             <!--<ul class="d-flex flex-wrap justify-content-center align-items-center">
                                 <li><a href="index.html">Home</a> </li>
-                                <li><a href="#">Pages</a> </li>
-                                <li><a class="active">About Page</a></li>
+                                <li><a class="active">contact-Us</a></li>
                             </ul>-->
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-		
-		
+        <!-- page header section ending here -->
 
+        <!-- contact us section start here -->
+	    <!-- <div class="contact padding-tb">
+            <div class="container">
+                <div class="section-wrapper row">
+                    <div class="col-lg-8 col-12">
+                        <div class="contact-part">
+                            <div class="contact-title">
+                                <h4>Send Message us</h4>
+                                
+                                	<?php
+if(isset($_POST['email'])) {
+$email_to = "info@thaneeshagroup.com";
+$email_subject = "Query from Website";
+//Errors to show if there is a problem in form fields.
+function died($error) {
+    echo "We are sorry that we can procceed your request due to error(s)";
+    echo "Below is the error(s) list <br /><br />";
+    echo $error."<br /><br />";
+    echo "Please go back and fix these errors.<br /><br />";
+    die();
+}
+// validation expected data exists
+if(!isset($_POST['first_name']) ||
+       !isset($_POST['last_name']) ||
+       !isset($_POST['email']) ||
+       !isset($_POST['telephone']) ||
+       !isset($_POST['comments'])) {
+    died('We are sorry to proceed your request due to error within form entries');   
+}
+$first_name = $_POST['first_name']; // required
+$last_name = $_POST['last_name']; // required
+$email_from = $_POST['email']; // required
+   $telephone = $_POST['telephone']; // not required
+$comments = $_POST['comments']; // required
+$error_message = "";
+$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+ if(!preg_match($email_exp,$email_from)) {
+$error_message .= 'You entered an invalid email<br />';
+ }
+$string_exp = "/^[A-Za-z .'-]+$/";
+ if(!preg_match($string_exp,$first_name)) {
+$error_message .= 'Invalid first name<br />';
+ }
+ if(!preg_match($string_exp,$last_name)) {
+$error_message .= 'Invalid Last name<br />';
+ }
+ if(strlen($comments) < 2) {
+$error_message .= 'Invalid comments<br />';
+ }
+ if(strlen($error_message) > 0) {
+   died($error_message);
+ }
+$email_message = "Form details below.\n\n";
+function clean_string($string) {
+  $bad = array("content-type","bcc:","to:","cc:","href");
+  return str_replace($bad,"",$string);
+}
+$email_message .= "First Name:".clean_string($first_name)."\n";
+$email_message .= "Subject:".clean_string($last_name)."\n";
+$email_message .= "Email:".clean_string($email_from)."\n";
+$email_message .= "Telephone:".clean_string($telephone)."\n";
+$email_message .= "Comments:".clean_string($comments)."\n";
+// create email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);
+?>
 
-		<!-- product section start here -->
-		<section class="product padding-tb bg-image-3 about">
-			<div class="container">
-			
-				<div class="row ">
-                    <div class="col-lg-6">
-                        <div class="left-thumb">
-                            <div class="section-header wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-					<h2 style="text-align: left;">Gramdhenu Pure Ghee</h2>
-					<p style="max-width: 100%; text-align: left;">Gramdhenu Pure ghee is the pure ghee processed from the butter of cow’s and the milk produced by the cows in village is used to make the butter and finally, the Pure Ghee packaged under our Label Garmdhenu Pure Ghee, with high nutritious vitamins and minerals values and its healing capabilities the Label Gramdhenu is being loved by our consumers and its demand is increasing from all parts of India by our distributors and dealers.
-
-Gramdhennu Cows, Pure Ghee comes in attractive packaging in sizes like 500 grams, 1 Litre, 10 KG & 15 KG Packs.
-</p>
-                    
-                    <p style="max-width: 100%; text-align: left;">Gramdhennu Cows, Pure Ghee comes in attractive packaging in sizes like 500 grams, 1 Litre, 10 KG & 15 KG Packs.
-</p>
-				</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                          <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Sr. No.</th>
-        <th>Nutrients</th>
-        <th>Value</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Protiens</td>
-        <td>897.30 Kcal</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Fat</td>
-        <td>99.70 gm</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Saturated Fatty Acids</td>
-        <td>74.10 gm</td>
-      </tr>
-      
-      <tr>
-        <td>4</td>
-        <td>Carbohydrates</td>
-        <td>0 gm</td>
-      </tr>
-      
-      <tr>
-        <td>5</td>
-        <td>Poly Unsaturated Fatty Acids</td>
-        <td>1.70 gm</td>
-      </tr>
-      
-      
-      <tr>
-        <td>6</td>
-        <td>Mono Unsaturated Fatty Acids</td>
-        <td>22.0 gm</td>
-      </tr>
-      
-      <tr>
-        <td>7</td>
-        <td>Trans Fatty Acids</td>
-        <td>1.80 gm</td>
-      </tr>
-      
-      
-       <tr>
-        <td>8</td>
-        <td>Cholesterol </td>
-        <td>0.30 gm</td>
-      </tr>
-      
-      <tr>
-        <td>9</td>
-        <td>Vitamin 'A' </td>
-        <td>260 mcg</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-                   
-            </div>
-				<div class="section-wrapper row justify-content-center">
-					<div class="col-12">
-						<div class="our-product row justify-content-center">
-							<div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-								<div class="post-item-inner text-center">
-									<div class="post-thumb">
-										<a href="assets/images/product/10.png" data-rel="lightcase">
-											<img src="assets/images/product/10.png" alt="product">
-										</a>
-									</div>
-									<div class="post-content">
-										<h4><a href="#">Gramdhenu Pure Ghee</a></h4>
-										<ul class="rating">
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star-half"></i></li>
-										</ul>
-										<p>500 Gm</p>
-										<!--<span class="price">₹ 45.99</span>-->
-									</div>
-									<!--<a href="#" class="offer">-50%</a>-->
-								</div>
-							</div>
-							<div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-								<div class="post-item-inner text-center">
-									<div class="post-thumb">
-										<a href="assets/images/product/11.png" data-rel="lightcase">
-											<img src="assets/images/product/11.png" alt="product">
-										</a> 
-									</div>
-									<div class="post-content">
-										<h4><a href="#">Gramdhenu Pure Ghee</a></h4>
-										<ul class="rating">
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star-half"></i></li>
-										</ul>
-										<p>10 Kg</p>
-										<!--<span class="price">₹ 45.99</span>-->
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-								<div class="post-item-inner text-center">
-									<div class="post-thumb">
-										<a href="assets/images/product/12.png" data-rel="lightcase">
-											<img src="assets/images/product/12.png" alt="product">
-										</a>
-									</div>
-									<div class="post-content">
-										<h4><a href="#">Gramdhenu Pure Ghee</a></h4>
-										<ul class="rating">
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star-half"></i></li>
-										</ul>
-										<p>15 Kg</p>
-										<!--<span class="price">₹ 45.99</span>-->
-									</div>
-									<!--<a href="#" class="offer">-30%</a>-->
-								</div>
-							</div>
-							<div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-								<div class="post-item-inner text-center">
-									<div class="post-thumb">
-										<a href="assets/images/product/13.png" data-rel="lightcase">
-											<img src="assets/images/product/13.png" alt="product">
-										</a>
-									</div>
-									<div class="post-content">
-										<h4><a href="#">Gramdhenu Pure Ghee</a></h4>
-										<ul class="rating">
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star"></i></li>
-											<li><i class="fas fa-star-half"></i></li>
-										</ul>
-										<p>15 Kg 1 Tin</p>
-										<!--<span class="price">₹ 45.99</span>-->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--<a href="#" class="btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">View all Product</a>-->
-				</div>
-			</div>
-		</section>
-		<!-- product section ending here -->
-
-
-		<!-- offer section start here -->
-		<!--<section class="offer-section style-2">
-			<div class="shape">
-				<img src="assets/images/offer/shape/02.png" alt="shape1">
-			</div>
-			<div class="shape1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-				<img src="assets/images/banner/shape/05.png" alt="shape1">
-			</div>
-			<div class="shape2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-				<img src="assets/images/banner/shape/06.png" alt="shape2">
-			</div>
-			<div class="container">
-				<div class="row align-items-center">
-                    <div class="col-lg-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-                        <div class="post-thumb">
-                            <img src="assets/images/about/home-4/01.png" alt="offer">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="offer-content">
-                            <h2>Best Deals Of This Week</h2>
-                            <div class="offer-thumb">
-                                <img src="assets/images/offer/shape/01.png" alt="offer">
-                                <span class="offer-option">
-                                    <img src="assets/images/offer/03.png" alt="offer">
-                                </span>
+<br><br>
+<h4 style="color:green;">Thank you for contacting us. We will be in touch with you very soon.</h4>
+<?php
+}
+?>
+                                
                             </div>
-                            <a href="shope-page.html" class="btn">Shop Now</a>
+                            <div class="contact-form d-flex flex-wrap justify-content-between">
+						<form class="contact-form d-flex flex-wrap justify-content-between" name="submit" action="" method="post">
+                                <input type="text" name="first_name" placeholder="Your Name">
+                                <input type="email" name="email" placeholder="Your Email">
+                                <input type="tel" name="telephone" placeholder="Phone">
+                                <input type="text" name="last_name" placeholder="Subject">
+                                <textarea rows="7" placeholder="Enter Your Message" name="comments"></textarea>
+                                <div class="gdprs">
+                                    <label><input type="checkbox" checked="checked" name="sameadr">i’m not a robot </label>
+                                    <img src="assets/images/contact/icon/01.png" alt="contact">
+                                </div>
+                                <input class="btn" type="submit" name="submit" value="Submit Now">
+								</form>
+                            </div>
                         </div>
                     </div>
-				</div>
-			</div>
-		</section>-->
-		<!-- offer section ending here -->
-		
-        
-        <!-- services section start here -->
-       
-		<!-- services section ending here -->
-		
+                    <div class="col-lg-4 col-12">
+						<div class="contact-info">
+							<h3>Contact Us</h3>
+							<ul class="contact-location">
+								<li>
+									<div class="icon-part">
+										<i class="fas fa-phone-volume"></i>
+									</div>
+									<div class="content-part">
+										<p>9320140140</p>
+										<p>7977669725</p>
+									</div>
+								</li>
+                                
+                                
+                                <li>
+									<div class="icon-part">
+										<i class="fa fa-envelope"></i>
+									</div>
+									<div class="content-part">
+										<p>info@thaneeshagroup.com</p>
+										
+									</div>
+								</li>
+								<li>
+								</li>
+								<li>
+<div class="icon-part" style="    margin-top: -120px;">
+<i class="fas fa-map-marker-alt"></i>
+									</div> -->
+<!-- <div class="content-part">
+<p><b>THANEESHA PRODUCTS PVT LTD</b>
+<br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
+Corporation (Thane Zone-2), Maharashtra, 400708
+</p>
+                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
 
-		<!-- our team member section start here -->
-		<!--<section class="team-member style-2 style-3 style-4 padding-tb bg-image-1">
+
+									</div>
+								</li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+<!-- contact us section ending here -->
+		
+		<!-- gmap section start here -->
+        <!--<div class="gmaps padding-tb">
 			<div class="container">
-				<div class="section-header wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
-					<h2>Our Team</h2>
-					<h2><span>2000+ People work since 1975</span></h2>
-					<p>Continually productize compelling quality for packed with  Elated 
-					Themes Setting up to website and it crating pages .</p>
-				</div>
-				<div class="section-wrapper row justify-content-center">
-					<div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-						<div class="post-item-inner text-center">
-							<div class="post-thumb">
-								<img src="assets/images/team/01.jpg" alt="team-member">
-							</div>
-							<div class="post-content">
-								<h4><a href="#">Ronald Gray</a></h4>
-								<p>Plant Geneticists</p>
-								<ul>
-									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#" class="behance"><i class="fab fa-behance"></i></a></li>
-									<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-						<div class="post-item-inner text-center">
-							<div class="post-thumb">
-								<img src="assets/images/team/02.jpg" alt="team-member">
-							</div>
-							<div class="post-content">
-								<h4><a href="#">Billy Rivera</a></h4>
-								<p>Plant Manager</p>
-								<ul>
-									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#" class="behance"><i class="fab fa-behance"></i></a></li>
-									<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-						<div class="post-item-inner text-center">
-							<div class="post-thumb">
-								<img src="assets/images/team/03.jpg" alt="team-member">
-							</div>
-							<div class="post-content">
-								<h4><a href="#">Maria Patterson</a></h4>
-								<p>Co Founder</p>
-								<ul>
-									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#" class="behance"><i class="fab fa-behance"></i></a></li>
-									<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-						<div class="post-item-inner text-center">
-							<div class="post-thumb">
-								<img src="assets/images/team/04.jpg" alt="team-member">
-							</div>
-							<div class="post-content">
-								<h4><a href="#">Mark Wood</a></h4>
-								<p>Plant Manager</p>
-								<ul>
-									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-									<li><a href="#" class="behance"><i class="fab fa-behance"></i></a></li>
-									<li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div id="map"></div>
 			</div>
-		</section>-->
-		<!-- our team member section ending here -->
+        </div>-->
+        <!-- gmap section ending here -->
 
-        
-        <!-- testimonial section start here -->
-        
-		<!-- testimonial section ending here -->
-		
-		
-		
-		<!-- sponsor section start here -->
-		<!--<div class="sponsor padding-tb">
-			<div class="container">
-				<div class="section-wrapper">
-					<div class="sponsor-slider">
-						<div class="swiper-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-							<div class="swiper-slide">
-								<div class="sponsor-thumb">
-								<a href="#"><img src="assets/images/sponsor/01.png" alt="sponsor"></a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/02.png" alt="sponsor"></a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/03.png" alt="sponsor"></a>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="sponsor-thumb">
-									<a href="#"><img src="assets/images/sponsor/05.png" alt="sponsor"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>-->
-		<!-- sponsor section ending here -->
-
-
-			<!-- footer section start here -->
+	<!-- footer section start here -->
 		<footer>
 			<div class="footer-top padding-tb">
 				<div class="container">
@@ -597,11 +378,11 @@ Gramdhennu Cows, Pure Ghee comes in attractive packaging in sizes like 500 grams
 											<i class="fas fa-map-marker-alt"></i>
 										</div>
 										<div class="content-part">
-											<p><b>THANEESHA PRODUCTS PVT LTD</b>
-												<br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
-												Corporation (Thane Zone-2), Maharashtra, 400708
-												</p>
-												<p><b>FSSAI Lic No:</b> 1153015000163</p>
+										<p><b>THANEESHA PRODUCTS PVT LTD</b>
+<br> PLOT NO RTC 40, TTC MIDC INDUSTRIAL AREA, Ghansoli Zone, Navi Mumbai Municipal
+Corporation (Thane Zone-2), Maharashtra, 400708
+</p>
+                                            <p><b>FSSAI Lic No:</b> 1153015000163</p>
 										</div>
 									</li>
 								</ul>
@@ -705,18 +486,18 @@ Gramdhennu Cows, Pure Ghee comes in attractive packaging in sizes like 500 grams
 		</footer>
 		<!-- footer section start here -->
 
-
 		<!-- scrollToTop start here -->
 		<a href="#" class="scrollToTop"><i class="flaticon-chevron-up"></i></a>
 		<!-- scrollToTop ending here -->
 
-		
+
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/fontawesome.min.js"></script>
 		<script src="assets/js/jquery.counterup.min.js"></script>
 		<script src='assets/js/jquery.easing.js'></script>
 		<script src='assets/js/slick.min.js'></script>
 		<script src="assets/js/lightcase.js"></script>
+        <script src="assets/js/map-custom.js"></script>
 		<script src="assets/js/circular-countdown.js"></script>
 		<script src="assets/js/jquery.countdown.min.js"></script>
 		<script src="assets/js/waypoints.min.js"></script>
@@ -726,6 +507,7 @@ Gramdhennu Cows, Pure Ghee comes in attractive packaging in sizes like 500 grams
 		<script src="assets/js/theia-sticky-sidebar.js"></script>
 		<script src="assets/js/swiper.min.js"></script>
 		<script src="assets/js/functions.js"></script>
+        
 	</body>
 
 
